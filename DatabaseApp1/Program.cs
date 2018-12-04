@@ -79,7 +79,7 @@ namespace DatabaseApp1
                         + Math.Round(elapsedTimeWithoutIndex / elapsedTimeWithIndex) + "x!");
                 }
                 Console.WriteLine("All done. Press any key to finish ... ");
-                Console.ReadLine(true);
+                Console.ReadLine();
             }
             catch (Exception e)
             {
@@ -105,6 +105,8 @@ namespace DatabaseApp1
                 }
             }
             return 0;
+
+            Console.ReadLine();
         }
     }
 }
